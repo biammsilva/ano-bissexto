@@ -6,5 +6,5 @@ def ano_bissexto(ano):
 if __name__ == "__main__":
     for indice, ano in enumerate(sys.argv):
         if indice!=0:
-            e_ano_bissexto = ano_bissexto(int(sys.argv[1]))
+            e_ano_bissexto = ano_bissexto(int(ano))
             print("É ano bissexto" if e_ano_bissexto else "Não é ano bissexto")
