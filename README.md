@@ -4,9 +4,11 @@ Esta aplicação tem como objetivo retornar se um determinado ano é ou não bis
 ### Para executar a aplicação em uma máquina virtual:
 
 * Preparando o ambiente (linux):
-```virtualenv -p python3 env
+```
+virtualenv -p python3 env
 source env/bin/activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 * Executando Aplicação:
 `python bissexto.py <ano>`
